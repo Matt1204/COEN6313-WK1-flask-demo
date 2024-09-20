@@ -16,7 +16,7 @@ jobs:
     - name: Set up Python version
       uses: actions/setup-python@v2
       with:
-        python-version: 3.10  # Adjust to your app's Python version
+        python-version: '3.10'  # Adjust to your app's Python version
 
     - name: Install dependencies
       run: |
